@@ -1,0 +1,17 @@
+---
+layout: post
+title:  Data viz
+date:   2024-04-18 13:03:20 +0200
+tag:
+- echarts
+- data visualisation
+---
+
+> Quick test of the eCharts javascript library and working with Jekyll.
+
+In my blog posts, I want to be able to display data easily in a nice manner. I came across Apache ECharts which seems to do just that: easy syntax, beautiful renders, interactivity and lots of documented examples.
+
+<div id="main" style="width: 600px;height:400px;"></div>
+<!-- Include ECharts from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<script src="/assets/js/data-viz.js"></script>
