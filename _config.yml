@@ -19,14 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Louis Douge's Blog
-email: louis.douge@gmail.com
+# email: louis.douge@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Louis Douge where I blog about my thoughts and experiments around Machine Learning,
-  tech topics, generative AI, etc.
-baseurl: "" # the subpath of your site, e.g. /blog
+  Louis Douge's blog: I blog about my professional interests and tech experiments.
+baseurl: "/ldg-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  doulouus
-
+linkedin_username: louisdouge
 # Build settings
 theme: minima
 plugins:
